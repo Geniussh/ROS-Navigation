@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+
+    <!-- We launch it with the empty world of summit_xl-->
+    <include file="$(find rbkairos_sim_bringup_new)/launch/rbkairos_complete.launch">
+        <arg name="gazebo_world" value="$(find summit_xl_gazebo)/worlds/summit_xl.world.sdf"/>
+    </include>
+
+</launch>

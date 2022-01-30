@@ -1,0 +1,3 @@
+<launch>
+    <node name="start_laserscan_multi_merger_kairos" pkg="ira_laser_tools" type="start_rbkairos_laser_merger.sh" />
+</launch>
